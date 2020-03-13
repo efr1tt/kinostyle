@@ -9,14 +9,14 @@ body {
 
 header {
   background-color: rgba(14, 4, 10, 0.92);
-  min-height: 50px;
+  min-height: 30px;
   color: white;
 }
 header h1 {
   font-family: "Caveat";
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
-  letter-spacing: 10px;
+  letter-spacing: 13px;
 }
 
 .wrapper {
@@ -32,6 +32,11 @@ header h1 {
 
 .container {
   max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-select {
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -65,12 +70,15 @@ footer .footer__foot .footer__span {
 }
 
 .menu__wrapper {
-  margin: 20px 0;
+  margin: 15px 0 5px 0;
+  width: 100%;
+  top: 50px;
+  left: 0;
+  z-index: 50;
 }
-.menu__wrapper .menu__categories {
-  font-size: 25px;
+.menu__wrapper .menu__body {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .menu__wrapper .menu__categories a {
   color: #352A3B;
@@ -78,11 +86,109 @@ footer .footer__foot .footer__span {
 .menu__wrapper .menu__categories a:hover {
   color: #070bda;
 }
+.menu__wrapper .menu__categories .menu__list {
+  font-size: 25px;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+.menu__wrapper .menu__categories .menu__list li {
+  list-style: none;
+  margin: 0 0 0 30px;
+}
+@media screen and (max-width: 720px) {
+  .menu__wrapper .menu__categories .menu__list li {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .menu__wrapper .menu__categories .menu__list {
+    display: block;
+  }
+}
+.menu__wrapper .menu__categories .menu__link {
+  color: #352A3B;
+}
+.menu__wrapper .menu__categories .menu__link:hover {
+  color: #070bda;
+}
 
+@media screen and (max-width: 720px) {
+  body.lock {
+    overflow: hidden;
+  }
+
+  .menu__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 5;
+  }
+
+  .menu__burger:before,
+.menu__burger:after {
+    content: "";
+    background-color: rgba(43, 26, 27, 0.71);
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.4s ease 0s;
+  }
+
+  .menu__burger:before {
+    top: 0;
+  }
+
+  .menu__burger:after {
+    bottom: 0;
+  }
+
+  .menu__burger span {
+    position: absolute;
+    background-color: rgba(43, 26, 27, 0.71);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    transition: all 0.4s ease 0s;
+  }
+
+  .menu__burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+
+  .menu__burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+
+  .menu__burger.active span {
+    transform: scale(0);
+  }
+
+  .menu__categories {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: darkgrey;
+    padding: 70px 0 20px 10px;
+    transition: all 0.4s ease 0s;
+    overflow: auto;
+    z-index: 4;
+  }
+
+  .menu__categories.active {
+    top: 0;
+  }
+}
 .mainpage-banner {
   text-align: center;
-  font-size: 40px;
-  margin-bottom: 15px;
+  font-size: 35px;
   overflow: hidden;
   padding-bottom: 15px;
 }
@@ -91,14 +197,23 @@ footer .footer__foot .footer__span {
   font-family: "Lobster";
   color: rgba(43, 26, 27, 0.71);
 }
+@media screen and (max-width: 720px) {
+  .mainpage-banner {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .mainpage-banner {
+    font-size: 18px;
+  }
+}
 
 .gender-select {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .gender-select__row {
   display: flex;
-  justify-content: space-evenly;
-  margin: 0 160px;
+  justify-content: space-between;
 }
 .gender-select a {
   position: relative;
@@ -112,7 +227,7 @@ footer .footer__foot .footer__span {
   background-repeat: no-repeat;
   background-size: cover;
   width: 300px;
-  height: 425px;
+  height: 400px;
 }
 .gender-select__emma p {
   text-align: center;
@@ -127,12 +242,18 @@ footer .footer__foot .footer__span {
   padding-top: 4px;
   letter-spacing: 5px;
 }
+@media screen and (max-width: 520px) {
+  .gender-select__emma p {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+}
 .gender-select__tom {
   background-image: url(../img/gender-select/Tom.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 300px;
-  height: 425px;
+  height: 400px;
 }
 .gender-select__tom p {
   text-align: center;
@@ -146,6 +267,41 @@ footer .footer__foot .footer__span {
   width: 100%;
   padding-top: 4px;
   letter-spacing: 5px;
+}
+@media screen and (max-width: 520px) {
+  .gender-select__tom p {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .gender-select .container-select {
+    width: 540px;
+  }
+  .gender-select .gender-select__emma {
+    width: 270px;
+  }
+  .gender-select .gender-select__tom {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .gender-select .gender-select__row {
+    justify-content: center;
+  }
+  .gender-select .container-select {
+    width: 320px;
+  }
+  .gender-select .gender-select__emma {
+    width: 155px;
+    background-size: cover;
+    background-position: center;
+  }
+  .gender-select .gender-select__tom {
+    width: 155px;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
