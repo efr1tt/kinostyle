@@ -62,13 +62,13 @@
 			<div class="gender-select">
 				<div class="container-select">
 					<div class="gender-select__row">
-						<a href="#">
-							<div class="gender-select__emma">
+						<a href="html/female.html">
+							<div class="gender-select__emma wow fadeInLeft">
 								<p>Женщинам</p>
 							</div>
 						</a>
 						<a href="#">
-							<div class="gender-select__tom">
+							<div class="gender-select__tom wow fadeInRight">
 								<p>Мужчинам</p>
 							</div>
 						</a>
@@ -76,7 +76,7 @@
 				</div>
 			</div>
 	<!--		Слайдер-->
-			<div class="slider">
+			<div class="slider wow fadeInUp">
 				<section class="main">
 					<div class="ia-container">
 
@@ -161,9 +161,15 @@
 			</div>
 		</footer>
 	</div>
-<!--Подключаем jquery к менюБургер-->
+<!--    Подключаем jquery к менюБургер-->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 	<script src="js/burger.js"></script>
+<!--		Подключаем библиотеку wow для блоков на главной-->
+	<script src="js/wowMin.js"></script>
+<!--		Инициализация wow-->
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
 

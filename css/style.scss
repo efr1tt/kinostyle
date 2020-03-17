@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat&display=swap&subset=cyrillic-ext');
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=cyrillic-ext');
 @import "slider.css";
-
+@import "animate.css";
 body {
   font-family: 'Caveat';
   background-color: #f5f5f5;
@@ -119,6 +119,7 @@ footer {
     width: 30px;
     height: 20px;
     z-index: 5;
+    cursor: pointer;
   }
   .menu__burger:before,
   .menu__burger:after {
