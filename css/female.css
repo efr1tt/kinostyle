@@ -1,0 +1,1182 @@
+@charset "UTF-8";
+@import "nullstyle.css";
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap&subset=cyrillic-ext");
+body {
+  background-color: #f5f5f5;
+  font-family: "Caveat";
+}
+
+.container {
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.female-select {
+  margin-top: 30px;
+}
+.female-select__row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.female-select a {
+  position: relative;
+  transition: 0.5s;
+  margin: 10px;
+}
+.female-select a:hover {
+  opacity: 60%;
+  transform: scale(1.1);
+}
+.female-select__AliciaVikander {
+  background-image: url(../img/celebrity/female/AliciaVikander/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__AliciaVikander p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__AmandaSchull {
+  background-image: url(../img/celebrity/female/AmandaSchull/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__AmandaSchull p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__AmberHeard {
+  background-image: url(../img/celebrity/female/AmberHeard/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__AmberHeard p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__AnnabelleWallis {
+  background-image: url(../img/celebrity/female/AnnabelleWallis/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__AnnabelleWallis p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__AnnaChipovskaya {
+  background-image: url(../img/celebrity/female/AnnaChipovskaya/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__AnnaChipovskaya p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__AnneHathaway {
+  background-image: url(../img/celebrity/female/AnneHathaway/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__AnneHathaway p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__BethBehrs {
+  background-image: url(../img/celebrity/female/BethBehrs/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__BethBehrs p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__CaitrionaBalfe {
+  background-image: url(../img/celebrity/female/CaitrionaBalfe/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__CaitrionaBalfe p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__CaraDelevingne {
+  background-image: url(../img/celebrity/female/CaraDelevingne/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__CaraDelevingne p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__CateBlanchett {
+  background-image: url(../img/celebrity/female/CateBlanchett/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__CateBlanchett p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__CharlizeTheron {
+  background-image: url(../img/celebrity/female/CharlizeTheron/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__CharlizeTheron p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__ClaudiaKim {
+  background-image: url(../img/celebrity/female/ClaudiaKim/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__ClaudiaKim p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__ClémencePoésy {
+  background-image: url(../img/celebrity/female/ClémencePoésy/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__ClémencePoésy p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__DaisyRidley {
+  background-image: url(../img/celebrity/female/DaisyRidley/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__DaisyRidley p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__DawnOlivieri {
+  background-image: url(../img/celebrity/female/DawnOlivieri/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__DawnOlivieri p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__ElizabethOlsen {
+  background-image: url(../img/celebrity/female/ElizabethOlsen/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__ElizabethOlsen p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__EmiliaClarke {
+  background-image: url(../img/celebrity/female/EmiliaClarke/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__EmiliaClarke p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__EmilyBettRickards {
+  background-image: url(../img/celebrity/female/EmilyBettRickards/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__EmilyBettRickards p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__EmilyBlunt {
+  background-image: url(../img/celebrity/female/EmilyBlunt/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__EmilyBlunt p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__EmmaStone {
+  background-image: url(../img/celebrity/female/EmmaStone/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__EmmaStone p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__EmmaWatson {
+  background-image: url(../img/celebrity/female/EmmaWatson/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__EmmaWatson p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__EvaGreen {
+  background-image: url(../img/celebrity/female/EvaGreen/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__EvaGreen p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__GalGadot {
+  background-image: url(../img/celebrity/female/GalGadot/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__GalGadot p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__HayleyAtwell {
+  background-image: url(../img/celebrity/female/HayleyAtwell/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__HayleyAtwell p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__JanetMontgomery {
+  background-image: url(../img/celebrity/female/JanetMontgomery/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__JanetMontgomery p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__JenniferConnelly {
+  background-image: url(../img/celebrity/female/JenniferConnelly/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__JenniferConnelly p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__JenniferLawrence {
+  background-image: url(../img/celebrity/female/JenniferLawrence/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__JenniferLawrence p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__JessicaChastain {
+  background-image: url(../img/celebrity/female/JessicaChastain/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__JessicaChastain p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__KateBeckinsale {
+  background-image: url(../img/celebrity/female/KateBeckinsale/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__KateBeckinsale p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__KristenStewart {
+  background-image: url(../img/celebrity/female/KristenStewart/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__KristenStewart p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__KristineFroseth {
+  background-image: url(../img/celebrity/female/KristineFroseth/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__KristineFroseth p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__KrystenRitter {
+  background-image: url(../img/celebrity/female/KrystenRitter/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__KrystenRitter p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__LaurenCohan {
+  background-image: url(../img/celebrity/female/LaurenCohan/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__LaurenCohan p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__LéaSeydoux {
+  background-image: url(../img/celebrity/female/LéaSeydoux/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__LéaSeydoux p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__LilyJames {
+  background-image: url(../img/celebrity/female/LilyJames/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__LilyJames p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__LyndsyFonseca {
+  background-image: url(../img/celebrity/female/LyndsyFonseca/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__LyndsyFonseca p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__MargotRobbie {
+  background-image: url(../img/celebrity/female/MargotRobbie/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__MargotRobbie p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__MarinaAlexandrova {
+  background-image: url(../img/celebrity/female/MarinaAlexandrova/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__MarinaAlexandrova p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__MarineVacth {
+  background-image: url(../img/celebrity/female/MarineVacth/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__MarineVacth p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__NaomiWatts {
+  background-image: url(../img/celebrity/female/NaomiWatts/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__NaomiWatts p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__NinaDobrev {
+  background-image: url(../img/celebrity/female/NinaDobrev/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__NinaDobrev p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__OliviaWilde {
+  background-image: url(../img/celebrity/female/OliviaWilde/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__OliviaWilde p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__RachelMcAdams {
+  background-image: url(../img/celebrity/female/RachelMcAdams/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__RachelMcAdams p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__RoseMcIver {
+  background-image: url(../img/celebrity/female/RoseMcIver/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__RoseMcIver p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__SamaraWeaving {
+  background-image: url(../img/celebrity/female/SamaraWeaving/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__SamaraWeaving p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__ScarlettJohansson {
+  background-image: url(../img/celebrity/female/ScarlettJohansson/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__ScarlettJohansson p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__SummerGlau {
+  background-image: url(../img/celebrity/female/SummerGlau/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__SummerGlau p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__SvetlanaHodchenkova {
+  background-image: url(../img/celebrity/female/SvetlanaHodchenkova/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__SvetlanaHodchenkova p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__TeresaPalmer {
+  background-image: url(../img/celebrity/female/TeresaPalmer/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__TeresaPalmer p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.female-select__WillaHolland {
+  background-image: url(../img/celebrity/female/WillaHolland/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.female-select__WillaHolland p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/*# sourceMappingURL=female.css.map */
