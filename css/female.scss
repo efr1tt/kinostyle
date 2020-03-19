@@ -66,6 +66,11 @@ body {
     @include p;
     @include avatar;
   }
+  &__AnadeArmas {
+    background-image: url(../img/celebrity/female/AnadeArmas/Avatar/Avatar.jpg);
+    @include p;
+    @include avatar;
+  }
   &__AnnabelleWallis {
     background-image: url(../img/celebrity/female/AnnabelleWallis/Avatar/Avatar.jpg);
     @include p;
@@ -253,6 +258,11 @@ body {
   }
   &__NinaDobrev {
     background-image: url(../img/celebrity/female/NinaDobrev/Avatar/Avatar.jpg);
+    @include p;
+    @include avatar;
+  }
+  &__OlgaKurylenko {
+    background-image: url(../img/celebrity/female/OlgaKurylenko/Avatar/Avatar.jpg);
     @include p;
     @include avatar;
   }
