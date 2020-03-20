@@ -201,6 +201,11 @@ body {
     @include p;
     @include avatar;
   }
+  &__KatherynWinnick {
+    background-image: url(../img/celebrity/female/KatherynWinnick/Avatar/Avatar.jpg);
+    @include p;
+    @include avatar;
+  }
   &__KristenStewart {
     background-image: url(../img/celebrity/female/KristenStewart/Avatar/Avatar.jpg);
     @include p;
@@ -223,6 +228,11 @@ body {
   }
   &__LéaSeydoux {
     background-image: url(../img/celebrity/female/LéaSeydoux/Avatar/Avatar.jpg);
+    @include p;
+    @include avatar;
+  }
+  &__LilyCollins {
+    background-image: url(../img/celebrity/female/LilyCollins/Avatar/Avatar.jpg);
     @include p;
     @include avatar;
   }
@@ -256,6 +266,16 @@ body {
     @include p;
     @include avatar;
   }
+  &__NatalieDormer {
+    background-image: url(../img/celebrity/female/NatalieDormer/Avatar/Avatar.jpg);
+    @include p;
+    @include avatar;
+  }
+  &__NathalieEmmanuel {
+    background-image: url(../img/celebrity/female/NathalieEmmanuel/Avatar/Avatar.jpg);
+    @include p;
+    @include avatar;
+  }
   &__NinaDobrev {
     background-image: url(../img/celebrity/female/NinaDobrev/Avatar/Avatar.jpg);
     @include p;
@@ -276,6 +296,11 @@ body {
     @include p;
     @include avatar;
   }
+  &__RoseLeslie {
+    background-image: url(../img/celebrity/female/RoseLeslie/Avatar/Avatar.jpg);
+    @include p;
+    @include avatar;
+  }
   &__RoseMcIver {
     background-image: url(../img/celebrity/female/RoseMcIver/Avatar/Avatar.jpg);
     @include p;
@@ -288,6 +313,11 @@ body {
   }
   &__ScarlettJohansson {
     background-image: url(../img/celebrity/female/ScarlettJohansson/Avatar/Avatar.jpg);
+    @include p;
+    @include avatar;
+  }
+  &__SophieTurner {
+    background-image: url(../img/celebrity/female/SophieTurner/Avatar/Avatar.jpg);
     @include p;
     @include avatar;
   }

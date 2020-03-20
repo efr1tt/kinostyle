@@ -1,0 +1,629 @@
+@import "nullstyle.css";
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap&subset=cyrillic-ext");
+body {
+  background-color: #f5f5f5;
+  font-family: "Caveat";
+}
+
+.container {
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.male-select {
+  margin-top: 30px;
+}
+.male-select__row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.male-select a {
+  position: relative;
+  transition: 0.5s;
+  margin: 10px;
+}
+.male-select a:hover {
+  opacity: 60%;
+  transform: scale(1.1);
+}
+.male-select__AidanGillen {
+  background-image: url(../img/celebrity/male/AidanGillen/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__AidanGillen p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__BradleyCooper {
+  background-image: url(../img/celebrity/male/BradleyCooper/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__BradleyCooper p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__BradPitt {
+  background-image: url(../img/celebrity/male/BradPitt/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__BradPitt p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__ChanningTatum {
+  background-image: url(../img/celebrity/male/ChanningTatum/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__ChanningTatum p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__CharlieHunnam {
+  background-image: url(../img/celebrity/male/CharlieHunnam/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__CharlieHunnam p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__ChrisEvans {
+  background-image: url(../img/celebrity/male/ChrisEvans/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__ChrisEvans p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__ChrisHemsworth {
+  background-image: url(../img/celebrity/male/ChrisHemsworth/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__ChrisHemsworth p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__ElijahWood {
+  background-image: url(../img/celebrity/male/ElijahWood/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__ElijahWood p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__HenryCavill {
+  background-image: url(../img/celebrity/male/HenryCavill/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__HenryCavill p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__IanSomerhalder {
+  background-image: url(../img/celebrity/male/IanSomerhalder/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__IanSomerhalder p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__JasonMomoa {
+  background-image: url(../img/celebrity/male/JasonMomoa/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__JasonMomoa p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__JohnnyDepp {
+  background-image: url(../img/celebrity/male/JohnnyDepp/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__JohnnyDepp p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__KeanuReeves {
+  background-image: url(../img/celebrity/male/KeanuReeves/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__KeanuReeves p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__KitHarington {
+  background-image: url(../img/celebrity/male/KitHarington/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__KitHarington p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__LeonardoDiCaprio {
+  background-image: url(../img/celebrity/male/LeonardoDiCaprio/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__LeonardoDiCaprio p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__NicholasHoult {
+  background-image: url(../img/celebrity/male/NicholasHoult/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__NicholasHoult p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__NikolajCoster-Waldau {
+  background-image: url(../img/celebrity/male/NikolajCoster-Waldau/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__NikolajCoster-Waldau p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__PaulWesley {
+  background-image: url(../img/celebrity/male/PaulWesley/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__PaulWesley p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__RichardMadden {
+  background-image: url(../img/celebrity/male/RichardMadden/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__RichardMadden p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__RobertDowneyJr {
+  background-image: url(../img/celebrity/male/RobertDowneyJr/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__RobertDowneyJr p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__RobertPattinson {
+  background-image: url(../img/celebrity/male/RobertPattinson/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__RobertPattinson p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__RyanGosling {
+  background-image: url(../img/celebrity/male/RyanGosling/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__RyanGosling p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__SeanBean {
+  background-image: url(../img/celebrity/male/SeanBean/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__SeanBean p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__TomHardy {
+  background-image: url(../img/celebrity/male/TomHardy/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__TomHardy p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__TravisFimmel {
+  background-image: url(../img/celebrity/male/TravisFimmel/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__TravisFimmel p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.male-select__WentworthMiller {
+  background-image: url(../img/celebrity/male/WentworthMiller/Avatar/Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 400px;
+  border-radius: 10%;
+}
+.male-select__WentworthMiller p {
+  text-align: center;
+  color: #f5f5f5;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+  padding-top: 6px;
+  letter-spacing: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/*# sourceMappingURL=male.css.map */

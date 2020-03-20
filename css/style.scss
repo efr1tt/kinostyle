@@ -11,13 +11,21 @@ body {
 //----------------------Шапка
 header {
   background-color: rgba(14,4,10,0.92);
-  min-height: 30px;
+  min-height: 35px;
   color: white;
   h1 {
     font-family: 'Caveat';
     font-size: 30px;
     text-align: center;
     letter-spacing: 13px;
+    @media screen and (max-width: 720px){
+      font-size: 24px;
+      letter-spacing: 9px;
+    }
+    @media screen and (max-width: 520px){
+      font-size: 20px;
+      letter-spacing: 5px;
+    }
   }
 }
 .wrapper {
@@ -37,10 +45,13 @@ header {
   max-width: 700px;
   margin: 0 auto;
 }
-.grad {
-  height: 80px;
-  background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
-}
+
+//----------------------Градиент
+//.grad {
+//  height: 80px;
+//  background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
+//}
+
 //----------------------Футер
 footer {
   .footer__row {
@@ -86,7 +97,7 @@ footer {
       color: #070bda;
     }
     .menu__list {
-      font-size: 25px;
+      font-size: 22px;
       display: flex;
       position: relative;
       z-index: 2;
@@ -179,7 +190,7 @@ footer {
 //----------------------Надпись выбора
 .mainpage-banner {
   text-align: center;
-  font-size: 35px;
+  font-size: 28px;
   overflow: hidden;
   padding-bottom: 15px;
   h3 {
