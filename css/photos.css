@@ -14,23 +14,31 @@ img {
 	margin: 15px;
 	border-radius: 5%;
 }
+img:hover {
+	box-shadow:
+		1px 1px cornflowerblue,
+		2px 2px cornflowerblue,
+		3px 3px cornflowerblue,
+		4px 4px cornflowerblue,
+		5px 5px cornflowerblue,
+		6px 6px cornflowerblue,
+		7px 7px cornflowerblue;
+	-webkit-transform: translateX(-7px);
+	transform: translateX(-7px);
+	transition: .6s;
+}
 .icon {
 	width: 35px;
 	height: 35px;
 	transition: .6s;
 	position: fixed;
 	top: 20px;
+	z-index: 10;
 }
 .icon:hover {
+	transition: .5s;
 	transform: scale(1.2);
-	opacity: 70%;
-}
-@media screen and (max-width: 500px){
-	img {
-		width: 280px;
-		height: 360px;
-		margin: 5px;
-	}
+	box-shadow: none;
 }
 .full {
 	display: none;
@@ -47,4 +55,12 @@ img {
 }
 a:focus + .full {
 	display: block;
+}
+
+@media screen and (max-width: 500px){
+	img {
+		width: 280px;
+		height: 360px;
+		margin: 5px;
+	}
 }

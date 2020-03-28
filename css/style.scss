@@ -61,15 +61,15 @@ footer {
     height: 70px;
     background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
   }
-  img {
-    width: 30px;
-    margin-right: 4px;
-    transition-duration: .2s;
-  }
-  img:hover {
-    opacity: 0.4;
-    transform: scale(1.2);
-  }
+  //img {
+  //  width: 30px;
+  //  margin-right: 4px;
+  //  transition-duration: .2s;
+  //}
+  //img:hover {
+  //  opacity: 0.4;
+  //  transform: scale(1.2);
+  //}
   .footer__foot {
     background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
     border-top: 1px solid rgba(101,65,120,0.39);
@@ -80,7 +80,7 @@ footer {
 }
 //----------------------Меню-бургер
 .menu__wrapper {
-  margin: 15px 0 5px 0;
+  margin-top: 7px;
   width: 100%;
   top: 50px;
   left: 0;
@@ -207,6 +207,7 @@ footer {
 }
 //----------------------Выбор мужчина/женщина
 .gender-select {
+  margin-top: 10px;
   margin-bottom: 20px;
   &__row {
     display: flex;
