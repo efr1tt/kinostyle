@@ -65,7 +65,7 @@ footer .footer__foot {
   border-top: 1px solid rgba(101, 65, 120, 0.39);
 }
 footer .footer__foot .footer__span {
-  font-size: 19px;
+  font-size: 17px;
 }
 
 .menu__wrapper {
@@ -190,7 +190,8 @@ footer .footer__foot .footer__span {
   text-align: center;
   font-size: 28px;
   overflow: hidden;
-  padding-bottom: 15px;
+  margin-top: 5px;
+  padding-bottom: 3px;
 }
 .mainpage-banner h3 {
   letter-spacing: 4px;

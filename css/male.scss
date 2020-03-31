@@ -131,6 +131,11 @@ body {
     @include p;
     @include avatar;
   }
+  &__JakeGyllenhaal {
+    background-image: url(../img/celebrity/male/JakeGyllenhaal/Avatar/Avatar.jpg);
+    @include p;
+    @include avatar;
+  }
   &__JasonMomoa {
     background-image: url(../img/celebrity/male/JasonMomoa/Avatar/Avatar.jpg);
     @include p;
@@ -191,6 +196,11 @@ body {
     @include p;
     @include avatar;
   }
+  &__RyanReynolds {
+    background-image: url(../img/celebrity/male/RyanReynolds/Avatar/Avatar.jpg);
+    @include p;
+    @include avatar;
+  }
   &__SeanBean {
     background-image: url(../img/celebrity/male/SeanBean/Avatar/Avatar.jpg);
     @include p;
@@ -198,6 +208,11 @@ body {
   }
   &__TomHardy {
     background-image: url(../img/celebrity/male/TomHardy/Avatar/Avatar.jpg);
+    @include p;
+    @include avatar;
+  }
+  &__TomHiddleston {
+    background-image: url(../img/celebrity/male/TomHiddleston/Avatar/Avatar.jpg);
     @include p;
     @include avatar;
   }
