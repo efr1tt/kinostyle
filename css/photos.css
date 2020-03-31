@@ -34,12 +34,14 @@ img:hover {
 	position: fixed;
 	top: 20px;
 	z-index: 10;
+	right: 200px;
 }
 .icon:hover {
 	transition: .5s;
 	transform: scale(1.2);
 	box-shadow: none;
 }
+/*При крике на фото*/
 .full {
 	display: none;
 	position: fixed;
@@ -64,3 +66,53 @@ a:focus + .full {
 		margin: 5px;
 	}
 }
+@media screen and (max-width: 1040px){
+	.icon {
+		right: 10px;
+	}
+}
+/*Кнопка главная*/
+.home {
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 10px 20px;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid cornflowerblue;
+	border-radius: 8px;
+	color: cornflowerblue;
+	transition: .2s ease-in-out;
+	font-family: 'Caveat', cursive;
+	letter-spacing: 5px;
+}
+.home:before {
+	content: "";
+	background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: -8px;
+	left: -75px;
+	transform: skewX(-45deg);
+}
+.home:hover {
+	background: cornflowerblue;
+	color: #fff;
+}
+.home:hover:before {
+	left: 150px;
+	transition: .5s ease-in-out;
+}
+span {
+	position: fixed;
+	left: 200px;
+	top: 20px;
+}
+@media screen and (max-width: 1040px) {
+	span {
+		left: 10px;
+	}
+}
+
